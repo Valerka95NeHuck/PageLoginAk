@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         Authorization</title>
-    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="/public/script.js"></script>
+    <script> let box = document.querySelector('.box');
+        let colorStyle = document.querySelector(".colorStyle");
+        colorStyle.addEventListener('.colorStyle', ()=>{
+            box.style.background = colorStyle.value;
+        });</script>
+
 </head>
-<body>
+<body id="boxColor">
     <div class="container">
         <div class="textLogin">
             <h2>Login</h2></div>
@@ -22,6 +29,9 @@
         <input type="submit" value="Log in" id="submit">
         <div>Forgot <a href="">Username/Password?</a></div>
     <div>Dont have an account? <a href="">Sign up</a></div>
+    </div>
+    <div>Поменяй цвет фона
+        <button onclick="setBgGrey();" >Нажми на меня сука</button>
     </div>
 </body>
 </html>
