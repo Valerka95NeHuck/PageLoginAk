@@ -1,0 +1,47 @@
+html{
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 3px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30%;
+
+}
+#submit:hover{
+    opacity: 0.8;
+}
+a{
+    color: #4CAF50;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.UserName{
+    margin-bottom: 5px;
+}
+.textLogin{
+    margin-right: 10px;
+}
+@media (min-width:1200px) {
+   
+}
